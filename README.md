@@ -1,7 +1,6 @@
 # ABCD DICOM to BIDS
 
-Written by the OHSU ABCD site for selectively downloading ABCD Study imaging DICOM data QC'ed as good by the ABCD DAIC site, converting it to BIDS standard input data, selecting the best pair of spin echo field maps, and correcting the sidecar JSON files to meet the BIDS Validator specification. 
-For information on [Collection 3165, see here](https://github.com/ABCD-STUDY/nda-abcd-collection-3165).
+Originally written by the OHSU ABCD site for selectively downloading ABCD Study imaging DICOM data QC'ed as good by the ABCD DAIC site, converting it to BIDS standard input data, selecting the best pair of spin echo field maps, and correcting the sidecar JSON files to meet the BIDS Validator specification. This version is forked from the collection 3165 version (For information on [Collection 3165, see here](https://github.com/ABCD-STUDY/nda-abcd-collection-3165)  ). Our version removes much of the logic to skip poor QC images, as we are interested in evaluating the impact of those exclusions.
 
 ## Installation
 
